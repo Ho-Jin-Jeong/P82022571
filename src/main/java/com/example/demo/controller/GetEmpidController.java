@@ -14,7 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class GetEmpidController {
     @GetMapping("/user")
     public ResponseEntity<String> getUserInfo() {
-        return ResponseEntity.ok("82022571");
+        String empId = "82022571";
+        return ResponseEntity.ok(empId);
     }
 }
 
