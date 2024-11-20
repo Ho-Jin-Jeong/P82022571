@@ -16,3 +16,4 @@ images:
   newTag: "202411190710"
 - name: cepgstapacr.azurecr.io/82022571
   newTag: "202408090453"
+  
