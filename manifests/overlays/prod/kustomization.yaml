@@ -1,7 +1,7 @@
 configMapGenerator:
 - files:
   - application.yml
-  name: "82022571-configmap"
+  name: 82022571-configmap
 resources:
 - ../../base
 - pvc.yaml
@@ -12,7 +12,9 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namePrefix: prod-
 images:
-- name: cepgstapacr.azurecr.io/82022571
-  newTag: "202408090453"
 - name: ceappacr.azurecr.io/82022571
   newTag: "202411190710"
+- name: ceappacr.azurecr.io/cloud-sample
+  newTag: "202411201535"
+- name: cepgstapacr.azurecr.io/82022571
+  newTag: "202408090453"
