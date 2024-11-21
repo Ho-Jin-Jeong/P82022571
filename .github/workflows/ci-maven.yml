@@ -61,6 +61,7 @@ jobs:
 
     - name: Commit files
       run: |
+          git commit -am 'Update image tag"
           git pull --rebase
           cd manifests
           git config --global user.email "github-actions@github.com"
