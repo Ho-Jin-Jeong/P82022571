@@ -3,7 +3,7 @@ name: Java CI with Maven
 
 on: workflow_dispatch
 
-env:https://github.com/Ho-Jin-Jeong/82022571/tree/main
+env: 
   IMAGE_NAME: 82022571
 
 jobs:
